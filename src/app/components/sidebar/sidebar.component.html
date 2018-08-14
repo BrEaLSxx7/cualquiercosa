@@ -11,11 +11,35 @@
 </div>
 <div class="sidebar-wrapper">
     <ul class="nav">
-        <li routerLinkActive="active"  *ngFor="let menuItem of menuItems" class="{{menuItem.class}} nav-item">
-            <a [routerLink]="[menuItem.path]">
-                <i class="now-ui-icons {{menuItem.icon}}"></i>
-                <p>{{menuItem.title}}</p>
+        <li routerLinkActive="active" class="nav-item">
+            <a routerLink="/dashboard">
+                <i class="fa fa-plus"></i>
+                <p>Admin</p>
             </a>
         </li>
+        <li routerLinkActive="active" class="nav-item">
+                <a routerLink="/table-list">
+                    <i class="fa fa-plus"></i>
+                    <p>Ver reportes</p>
+                </a>
+            </li>
+        <li routerLinkActive="active" class="nav-item">
+                <a routerLink="/icons">
+                    <i class="fa fa-plus"></i>
+                    <p>Solicitud sucursal</p>
+                </a>
+            </li>
+            <li routerLinkActive="active" class="nav-item">
+                    <a routerLink="/user-profile">
+                        <i class="fa fa-plus"></i>
+                        <p>Ver mis pedidos</p>
+                    </a>
+                </li>
+            <li routerLinkActive="active" class="nav-item">
+                    <a routerLink="/maps">
+                        <i class="fa fa-plus"></i>
+                        <p>Sucursales</p>
+                    </a>
+                </li>
     </ul>
 </div>

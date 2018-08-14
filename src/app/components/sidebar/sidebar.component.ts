@@ -23,6 +23,7 @@ export const ROUTES: RouteInfo[] = [
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
+    public isCollapsed = false;
   menuItems: any[];
 
   constructor() { }

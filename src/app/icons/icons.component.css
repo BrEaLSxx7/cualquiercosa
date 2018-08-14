@@ -1,0 +1,27 @@
+input:focus{
+    border: 1px solid #28B463
+}
+input{
+    background-color: white;
+    
+    /* width: 50%; */
+}
+select:focus{
+    border: 1px solid #28B463
+}   
+
+i{
+    cursor: pointer;
+}
+textarea{
+    background-color: white;
+
+}
+
+textarea:focus{
+    border: 1px solid #28B463
+}
+.w-40{
+    width: 75vw;
+    height: 60vh;
+}
